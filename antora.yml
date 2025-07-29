@@ -5,3 +5,12 @@ title: Docs
 # - modules/ROOT/nav.adoc
 # - modules/programming/nav.adoc
 # - modules/tools/nav.adoc
+asciidoc:
+  attributes:
+    numbered: false
+    toc: false
+    icons: font
+    icon-set: fi
+    source-highlighter: "rouge"
+    rouge-style: "github"
+    rouge-css: "syntax"
