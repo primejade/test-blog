@@ -1,3 +1,2 @@
-* Basic Syntax
-** xref:00-hello-world.adoc[Hello World]
+* Perl Language
 ** xref:01-variables.adoc[Variables]
