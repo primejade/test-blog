@@ -3,8 +3,15 @@ title: Programming
 version: '0.1.1'
 asciidoc:
   attributes:
+    numbered: true
+    icons: font
+    icon-set: fi
+    source-highlighter: "rouge"
+    rouge-style: "github"
+    rouge-css: "syntax"
     # url-jsdoc-latest: 'http://asciidoctor.github.io/asciidoctor.js/main'
 nav:
 - modules/perl/nav.adoc
 - modules/lua/nav.adoc
 # - modules/sript/nav.adoc
+
