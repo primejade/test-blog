@@ -177,7 +177,7 @@ multi-line definition, such as the factorial function, directly in interactive m
 However, it is usually more convenient to put such definitions in a file and then
 call Lua to run the file.
 
-image::figs/intractive-multiline.png[Multiline Code in Intractive Mode]
+// image::figs/intractive-multiline.png[Multiline Code in Intractive Mode]
 
 We can use the `-i` option to instruct Lua to start an interactive session
 after running a given chunk:
