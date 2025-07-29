@@ -1,5 +1,5 @@
-= Perl Programming language
+= Programming section
 
-My home directory for the perl language. Here some basic syntax notes, examples
-and my scripts will live.
+My home directory for programming languages. Here some basic syntax, notes,
+examples and my scripts will live.
 
