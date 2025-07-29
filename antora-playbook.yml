@@ -5,7 +5,7 @@
 #   - ./ext/assign-project-url.js
 #   - ./ext/page-location.js
 runtime:
-  # cache_dir: ./.cache/antora
+  cache_dir: ./.cache/antora
   log:
     failure_level: warn
 site:
@@ -89,6 +89,6 @@ content:
 ui:
   bundle:
     url: https://github.com/asciidoctor/docs.asciidoctor.org-ui/releases/download/prod-latest/ui-bundle.zip
-    snapshot: true # must be set since the prod-latest tag is an alias
+    snapshot: false # must be set since the prod-latest tag is an alias
 output:
   dir: ./public
