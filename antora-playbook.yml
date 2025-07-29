@@ -109,7 +109,7 @@ asciidoc:
 ui:
   bundle:
     url: https://github.com/hossein-lap/asciidoctor-docs-ui/releases/download/prod-350/ui-bundle.zip
-    snapshot: false # must be set since the prod-latest tag is an alias
+    snapshot: true # must be set since the prod-latest tag is an alias
 
 output:
   dir: ./public
