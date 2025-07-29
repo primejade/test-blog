@@ -1,6 +1,6 @@
-name: programming
-title: Programming
-version: '0.1.1'
+name: tools
+title: Tools
+version: '0.1.0'
 asciidoc:
   attributes:
     numbered: true
@@ -8,10 +8,10 @@ asciidoc:
     icon-set: fi
     source-highlighter: "rouge"
     rouge-style: "github"
-    rouge-css: "class"
+    # rouge-css: "class"
     # url-jsdoc-latest: 'http://asciidoctor.github.io/asciidoctor.js/main'
 nav:
-- modules/perl/nav.adoc
-- modules/lua/nav.adoc
+- modules/git/nav.adoc
+- modules/asciidoc/nav.adoc
 # - modules/sript/nav.adoc
 
