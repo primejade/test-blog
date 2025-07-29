@@ -30,12 +30,15 @@ content:
   # - url: https://github.com/asciidoctor/asciidoctor
   #   branches: v2.0.x
   #   start_path: docs
+
   - url: https://github.com/hossein-lap/test-blog
     branches: perl
     start_path: docs
-  - url: https://github.com/hossein-lap/test-blog
-    branches: lua
-    start_path: docs
+
+  # - url: https://github.com/hossein-lap/test-blog
+  #   branches: lua
+  #   start_path: docs
+
   # - url: https://github.com/asciidoctor/asciidoctor-cli.js
   #   branches: main
   #   start_path: docs
