@@ -35,13 +35,13 @@ content:
   # - url: https://github.com/asciidoctor/asciidoctor
   #   branches: v2.0.x
   #   start_path: docs
-  - url: https://github.com/hossein-lap/test-blog
+  - url: https://github.com/primejade/test-blog
     branches: master
     # start_path: docs
-  - url: https://github.com/hossein-lap/test-blog
+  - url: https://github.com/primejade/test-blog
     branches: programming
     start_path: docs
-  - url: https://github.com/hossein-lap/test-blog
+  - url: https://github.com/primejade/test-blog
     branches: tools
     start_path: docs
   # - url: https://github.com/hossein-lap/test-blog
