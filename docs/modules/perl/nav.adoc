@@ -1,2 +1,2 @@
-* Perl Language
-** xref:01-variables.adoc[Variables]
+* xref:index.adoc[Perl Language]
+** xref:syntax.adoc[Basic Syntax]
