@@ -1,7 +1,4 @@
-= Perl Synax
-
-
-== Perl Variables
+= Perl Variables
 
 To manipulate data in your program, you use variables.
 
@@ -10,7 +7,7 @@ manipulate the corresponding data types including scalars, lists, and hashes.
 
 We'll focus on the scalar variable in this section.
 
-=== Naming variables
+== Naming variables
 
 You use scalar variables to manipulate scalar data such as
 <<doc/03-perl-numbers.adoc#_Perl_numbers,numbers>> and
@@ -41,7 +38,7 @@ $email-address = "zen@example.com"; # special character (-) found
 $home url = "http://localhost/perltutorial"; # space is not allowed
 ----
 
-=== Declaring variables
+== Declaring variables
 
 Perl doesn’t require you to declare a variable before using it.
 
@@ -95,7 +92,7 @@ to the enclosing block.
 Now, you’ll learn a very important concept in programming called variable
 scopes.
 
-=== Perl variable scopes
+== Perl variable scopes
 
 Let’s take a look at the following example:
 
@@ -137,7 +134,7 @@ following code:
 our $color = 'red';
 ----
 
-=== Perl variable interpolation
+== Perl variable interpolation
 
 Perl interpolates variables in double-quoted strings. It means if you place a
 variable inside a double-quoted string, you’ll get the value of the variable
@@ -166,11 +163,11 @@ Perl only interpolates scalar variables and
 only applied to the double-quoted string, but not the single-quoted string
 ====
 
-== Perl Numbers
+= Perl Numbers
 
 Perl has two kinds of numbers: integer and floating-point numbers.
 
-=== Perl integers
+== Perl integers
 
 Integers are whole numbers that have no digits after the decimal points i.e
 `10`, `-20` or `100`.
@@ -236,7 +233,7 @@ All the following integer numbers are 12 in Perl:
 0xC
 ....
 
-=== Perl floating-point numbers
+== Perl floating-point numbers
 
 You use floating-point numbers to store real numbers. Perl represents
 floating-point numbers in two forms:
@@ -253,11 +250,11 @@ and 53 bits for significand.
 The range of floating-point numbers is essentially determined by the standard C
 library of the underlying platform where Perl is running.
 
-== Perl String
+= Perl String
 
 Perl's built-in string functions to manipulate strings.
 
-=== Introduction to Perl strings
+== Introduction to Perl strings
 
 In Perl, a string is a sequence of characters surrounded by some kind of
 quotation marks. A string can contain ASCII, UNICODE, and escape sequences
@@ -278,7 +275,7 @@ It is important to remember that the double-quoted string replaces variables
 inside it by their values, while the single-quoted string treats them as text.
 This is known as variable interpolation in Perl.
 
-=== Perl string alternative delimiters
+== Perl string alternative delimiters
 
 Besides the single and double quotes, Perl also allows you to use quote-like
 operators such as:
@@ -323,7 +320,7 @@ my $s = q^A string with different delimiter ^;
 print($s,"\n");
 ----
 
-=== Perl string functions
+== Perl string functions
 
 Perl provides a set of functions that allow you to manipulate strings
 effectively. We cover the most commonly used string functions in the following
@@ -456,11 +453,11 @@ descriptions:
 | Returns the uppercase version of the string
 |===
 
-== Perl Operator
+= Perl Operator
 
 Perl operators including numeric operators, string operators, and logical operators.
 
-=== Numeric operators
+== Numeric operators
 
 Perl provides numeric operators to help you operate on numbers including
 arithmetic, Boolean and bitwise operations. Let’s examine the different kinds
@@ -649,7 +646,7 @@ $b = 5;
 print $a <=> $b, "\n";
 ----
 
-=== String operators
+== String operators
 
 .Comparison operators
 
@@ -716,7 +713,7 @@ print $s;
 
 NOTE: The `<STDIN>` is used to get input from users.
 
-=== Logical operators
+== Logical operators
 
 Logical operators are often used in control statements such as
 <<doc/09-perl-if-statement.adoc#_Perl_if_Statement,if>>,
@@ -732,7 +729,7 @@ etc., to control the flow of the program. The following are logical operators in
   operator inverts the value of the following variable or expression. In the
   other words, it converts `true` to `false` or `false` to `true`.
 
-== Perl List
+= Perl List
 
 Perl list and how to manipulate list elements using various techniques such as
 list slicing, ranging and qw() function.
@@ -743,7 +740,7 @@ values. You use parenthesis and comma operators to construct a list. Each value
 is the list is called list element. List elements are indexed and ordered. You
 can refer to each element by its position.
 
-=== Simple Perl list
+== Simple Perl list
 
 [source,perl]
 ----
@@ -780,7 +777,7 @@ We passed several lists to the `print` operator to display their elements. All
 the lists that we have seen so far contain an element with the same data type.
 These lists are called simple lists.
 
-=== Complex Perl list
+== Complex Perl list
 
 A Perl list may contain elements that have different data types. This kind of
 list is called a complex list. Let’s take a look at the following example:
@@ -796,7 +793,7 @@ my $s = "a string";
 print("complex list", $x , $s ,"\n");
 ----
 
-=== Using qw function
+== Using qw function
 
 Perl provides the `qw()` function that allows you to get a list by extracting
 words out of a string using the space as a delimiter. The `qw` stands for quote
@@ -825,7 +822,7 @@ qw{this is a list};
 qw[this is a list];
 ----
 
-=== Flattening list
+== Flattening list
 
 If you put a list, called an internal list, inside another list, Perl
 automatically flattens the internal list. The following lists are the same:
@@ -837,7 +834,7 @@ automatically flattens the internal list. The following lists are the same:
 ((2,3,4),5,6)
 ----
 
-=== Accessing list element
+== Accessing list element
 
 You can access elements of a list by using the zero-based index. To access the
 n^th^ element, you put (n – 1) index inside square brackets.
@@ -871,7 +868,7 @@ the list inside the square bracket.
 
 The above code returns a list of three elements `(1, 3, 4)`.
 
-=== Ranges
+== Ranges
 
 Perl allows you to build a list based on a range of numbers or characters e.g.,
 a list of numbers from 1 to 100, a list of characters from a to z. The
@@ -883,7 +880,7 @@ following example defines two lists:
 (a..z)
 ----
 
-== Array
+= Array
 
 Perl array and how to use arrays effectively in your program and techniques to
 manipulate array’s elements.
@@ -923,7 +920,7 @@ The `$` sign looks like `S` in the word scalar. And `@` looks like `a` in the
 word array, which is a simple trick to remember what type of variables you are
 working with.
 
-=== Accessing Perl array elements
+== Accessing Perl array elements
 
 Like a list, you can access array elements using square brackets `[]` and indices.
 
@@ -967,7 +964,7 @@ print("@weekend");
 print("\n");
 ----
 
-=== Counting Perl array elements
+== Counting Perl array elements
 
 If you treat an array as a scalar, you will get the number of elements in the
 array.
@@ -997,7 +994,7 @@ my $last = $#days;
 print($last, "\n"); #" 6
 ----
 
-=== Modifying Perl array elements
+== Modifying Perl array elements
 
 To change the value of an element, you access the element using the index and
 assign it a new value. Perl also allows you to change the values of multiple
@@ -1019,7 +1016,7 @@ $days[0] = 'Monday';
 print("@days","\n");
 ----
 
-=== Perl array operations
+== Perl array operations
 
 Perl provides several useful functions and operators to help you manipulate
 arrays effectively. We will cover the most important ones in the following
@@ -1149,7 +1146,7 @@ For more information on the `sort()` function, check out the
 Perl sort function
 <<doc/02-perl-variables.adoc#_perl_sort,Perl sort function>>.
 
-== Hash
+= Hash
 
 Another compound data type called Perl hash and how to manipulate hash elements
 effectively.
@@ -1198,7 +1195,7 @@ over-written*.
 You can omit the quotation in the keys of the hash.
 ====
 
-=== Hash Operations
+== Hash Operations
 
 The most commonly used operation in the hash.
 
@@ -1271,7 +1268,7 @@ The `keys()` function returns a list of hash keys. The `for` loop visits each
 key and assigns it to a special variable `$_`. Inside the loop, we access the
 value of a hash element via its key as `$langs{$_}`.
 
-== *_if_* Statement
+= *_if_* Statement
 
 Perl `if` statement allows you to control the execution of your code based on
 conditions. The simplest form of the `if` statement is as follows:
@@ -1372,7 +1369,7 @@ if (expression) {
 }
 ----
 
-== A Simple Program
+= A Simple Program
 
 We are going to apply what we have learned so far to create a simple program
 called currency converter.
@@ -1432,7 +1429,7 @@ if (not exists $rates{$l_curr}) {
 }
 ----
 
-== *_unless_* Statement
+= *_unless_* Statement
 
 Before discussing the unless statement, let’s revisit Perl’s philosophy:
 ____
@@ -1582,7 +1579,7 @@ unless ($a < 0 && $b == 10 && $c > 0) {
 ====
 ****
 
-== *_given_* Statement
+= *_given_* Statement
 
 Perl `given` statement, is similar to the switch case statement in other
 languages.
@@ -1750,7 +1747,7 @@ print do {
   this case, the `given` statement can do more advanced matches.
 ****
 
-== *_for_* Loop
+= *_for_* Loop
 
 Perl for loop statement to loop over elements of a list.
 
@@ -1936,7 +1933,7 @@ for (@c) {
 }
 ----
 
-== *_while_* loop statement
+= *_while_* loop statement
 
 Perl `while` loop statement executes a code block repeatedly as long as the
 test condition remains `true`. The test condition is checked at the beginning
