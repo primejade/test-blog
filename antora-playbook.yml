@@ -74,10 +74,11 @@ content:
 
 asciidoc:
   attributes:
-    # numbered: true
+    numbered: true
     icons: font
+    icon-set: fi
     source-highlighter: "rouge"
-    rouge-style: "base16.dark"
+    rouge-style: "github"
     rouge-css: "syntax"
 
 
