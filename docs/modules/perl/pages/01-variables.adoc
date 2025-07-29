@@ -1,4 +1,5 @@
 = Perl Variables
+:source-highlighter: rouge
 
 To manipulate data in your program, you use variables.
 
