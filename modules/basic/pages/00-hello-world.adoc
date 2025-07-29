@@ -1,0 +1,22 @@
+= Perl Progrmming Language
+
+.Hello World!
+[source,perl]
+----
+#!/bin/perl
+use warnings;
+print("Hello world!\n");
+----
+
+[NOTE]
+====
+`use warnings;` is called _pragma_ in Perl. This pragma instructs Perl to turn
+on additional warning reporting.
+====
+
+== Basic Syntax
+
+****
+Basic *Perl syntax* to get started with Perl language quickly including
+variables, expressions, statements, block, comments, whitespaces, and keywords.
+****

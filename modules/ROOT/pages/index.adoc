@@ -1,0 +1,5 @@
+= Perl Programming language
+
+My home directory for the perl language. Here some basic syntax notes, examples
+and my scripts will live.
+

@@ -1,0 +1,42 @@
+= Perl Programming Language
+
+The Basic Syntax
+
+== Basic Syntax
+
+****
+Basic *Perl syntax* to get started with Perl language quickly including
+variables, expressions, statements, block, comments, whitespaces, and keywords.
+****
+
+=== Values and Variables
+
+You develop Perl programs to manipulate some kinds of data. The data can be
+either <<doc/03-perl-numbers.adoc#_Perl_numbers,numbers>>,
+<<doc/04-perl-strings.adoc#_Perl_strings,strings>>, or more complex such as a
+<<doc/06-perl-list.adoc#_Perl_list,list>>. Data is held as value.
+
+.Some values
+[source,perl]
+----
+10
+20.2
+"Perl Syntax"
+----
+
+To hold a piece of data, you need *variables*. You use a variable to store a
+value. And through the name of the variable, you can process the value.
+
+The following illustrates some variables in Perl:
+
+.Define variables
+[source,perl]
+----
+$x = 10;
+$y = 20;
+$s = "Perl string";
+----
+
+We have two integer variables (`$x` and `$y`) and one string variable (`$s`).
+For more information on Perl variables, check it out the
+<<doc/02-perl-variables.adoc#_Perl_variables,Perl variables>>.
