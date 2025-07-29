@@ -1,2 +1,2 @@
-* Lua Language
+* xref:index.adoc[Lua Language]
 ** xref:book.adoc[Lua Book]
