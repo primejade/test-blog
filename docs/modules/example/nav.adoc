@@ -1,3 +1,0 @@
-* Example
-** xref:tests.adoc
-** xref:colors.adoc
