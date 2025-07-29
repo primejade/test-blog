@@ -12,7 +12,7 @@ runtime:
 
 site:
   title: Hos Docs
-  # url: https://docs.asciidoctor.org
+  url: https://primejade.github.io
   start_page: hos-docs::index.adoc
   robots: allow
 
@@ -108,7 +108,7 @@ asciidoc:
 
 ui:
   bundle:
-    url: https://github.com/asciidoctor/docs.asciidoctor.org-ui/releases/download/prod-latest/ui-bundle.zip
+    url: https://github.com/hossein-lap/asciidoctor-docs-ui/releases/download/prod-350/ui-bundle.zip
     snapshot: false # must be set since the prod-latest tag is an alias
 
 output:
