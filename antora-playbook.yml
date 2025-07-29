@@ -13,7 +13,7 @@ runtime:
 site:
   title: Hos Docs
   # url: https://docs.asciidoctor.org
-  start_page: ROOT::index.adoc
+  start_page: hos-docs::index.adoc
   robots: allow
 
 git:
@@ -36,7 +36,13 @@ content:
   #   branches: v2.0.x
   #   start_path: docs
   - url: https://github.com/hossein-lap/test-blog
+    branches: master
+    # start_path: docs
+  - url: https://github.com/hossein-lap/test-blog
     branches: programming
+    start_path: docs
+  - url: https://github.com/hossein-lap/test-blog
+    branches: tools
     start_path: docs
   # - url: https://github.com/hossein-lap/test-blog
   #   branches: lua

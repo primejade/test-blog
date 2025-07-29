@@ -1,5 +1,7 @@
 name: hos-docs
 version: ~
-title: Programming
-nav:
-- modules/programming/nav.adoc
+title: Docs
+# nav:
+# - modules/ROOT/nav.adoc
+# - modules/programming/nav.adoc
+# - modules/tools/nav.adoc
