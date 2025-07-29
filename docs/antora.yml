@@ -1,17 +1,19 @@
 name: tools
 title: Tools
 version: '0.1.0'
-asciidoc:
-  attributes:
-    numbered: true
-    icons: font
-    icon-set: fi
-    source-highlighter: "rouge"
-    rouge-style: "github"
-    # rouge-css: "class"
-    # url-jsdoc-latest: 'http://asciidoctor.github.io/asciidoctor.js/main'
+
 nav:
 - modules/git/nav.adoc
 - modules/asciidoc/nav.adoc
 # - modules/sript/nav.adoc
+
+# asciidoc:
+#   attributes:
+#     numbered: true
+#     icons: font
+#     icon-set: fi
+#     source-highlighter: "rouge"
+#     rouge-style: "github"
+#     # rouge-css: "class"
+#     # url-jsdoc-latest: 'http://asciidoctor.github.io/asciidoctor.js/main'
 
