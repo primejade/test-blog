@@ -4,20 +4,25 @@
 #   - ./ext/promote-favicon-to-root.js
 #   - ./ext/assign-project-url.js
 #   - ./ext/page-location.js
+
 runtime:
   cache_dir: ./.cache/antora
   log:
     failure_level: warn
+
 site:
   title: Hos Docs
   # url: https://docs.asciidoctor.org
   start_page: ROOT::index.adoc
   robots: allow
+
 git:
   ensure_git_suffix: false
+
 urls:
   latest_version_segment: latest
   latest_version_segment_strategy: redirect:to
+
 content:
   sources:
   # - url: https://github.com/hossein-lap/blog.posts.git
@@ -30,15 +35,12 @@ content:
   # - url: https://github.com/asciidoctor/asciidoctor
   #   branches: v2.0.x
   #   start_path: docs
-
   - url: https://github.com/hossein-lap/test-blog
     branches: programming
     start_path: docs
-
   # - url: https://github.com/hossein-lap/test-blog
   #   branches: lua
   #   start_path: docs
-
   # - url: https://github.com/asciidoctor/asciidoctor-cli.js
   #   branches: main
   #   start_path: docs
@@ -69,6 +71,16 @@ content:
   # - url: https://github.com/asciidoctor/asciidoctor-diagram
   #   branches: release
   #   start_path: docs
+
+asciidoc:
+  attributes:
+    # numbered: true
+    icons: font
+    source-highlighter: "rouge"
+    rouge-style: "base16.dark"
+    rouge-css: "syntax"
+
+
 # asciidoc:
 #   extensions:
 #   - '@asciidoctor/tabs'
@@ -86,9 +98,11 @@ content:
 #     hide-uri-scheme: '@'
 #     url-org: https://github.com/asciidoctor
 #     url-project: https://asciidoctor.org
+
 ui:
   bundle:
     url: https://github.com/asciidoctor/docs.asciidoctor.org-ui/releases/download/prod-latest/ui-bundle.zip
     snapshot: false # must be set since the prod-latest tag is an alias
+
 output:
   dir: ./public
