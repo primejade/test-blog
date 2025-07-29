@@ -8,7 +8,7 @@ asciidoc:
     icon-set: fi
     source-highlighter: "rouge"
     rouge-style: "github"
-    rouge-css: "syntax"
+    rouge-css: "class"
     # url-jsdoc-latest: 'http://asciidoctor.github.io/asciidoctor.js/main'
 nav:
 - modules/perl/nav.adoc
