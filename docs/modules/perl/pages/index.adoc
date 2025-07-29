@@ -22,9 +22,9 @@ variables, expressions, statements, block, comments, whitespaces, and keywords.
 == Values and Variables
 
 You develop Perl programs to manipulate some kinds of data. The data can be
-either <<doc/03-perl-numbers.adoc#_Perl_numbers,numbers>>,
-<<doc/04-perl-strings.adoc#_Perl_strings,strings>>, or more complex such as a
-<<doc/06-perl-list.adoc#_Perl_list,list>>. Data is held as value.
+// either <<doc/03-perl-numbers.adoc#_Perl_numbers,numbers>>,
+// <<doc/04-perl-strings.adoc#_Perl_strings,strings>>, or more complex such as a
+// <<doc/06-perl-list.adoc#_Perl_list,list>>. Data is held as value.
 
 .Some values
 [source,perl]
@@ -49,16 +49,16 @@ $s = "Perl string";
 
 We have two integer variables (`$x` and `$y`) and one string variable (`$s`).
 For more information on Perl variables, check it out the
-<<doc/02-perl-variables.adoc#_Perl_variables,Perl variables>>.
+// <<doc/02-perl-variables.adoc#_Perl_variables,Perl variables>>.
 
 == Expressions
 
 In Perl, an expression is anything that returns a value.
 
 The expression can be used in a larger expression or a statement. The expression can be a literal
-<<doc/03-perl-numbers.adoc#_Perl_numbers,number>>, complex expression with
-<<doc/05-perl-operators.adoc#_Perl_operators,operators>>, or a
-<<doc/20-perl-subroutine.adoc#_Perl_subroutine,function (aka subroutine)>>, call.
+// <<doc/03-perl-numbers.adoc#_Perl_numbers,number>>, complex expression with
+// <<doc/05-perl-operators.adoc#_Perl_operators,operators>>, or a
+// <<doc/20-perl-subroutine.adoc#_Perl_subroutine,function (aka subroutine)>>, call.
 
 For example, 3 is an expression that returns a value of 3. The `$a + $b` is an
 expression that returns the sum of two variables: `$a` and `$b`.
@@ -102,7 +102,7 @@ is executed.
 In Perl, a comment begins with a hash (`#`) character. Perl interpreter ignores
 comments at both compile-time and runtime.
 
-Typically, you use comments to document the logic of your code. The code tells
+// Typically, you use comments to document the logic of your code. The code tells
 you what it does however comments provides information on why the code does so.
 
 Comments are very important and useful to you as a programmer in order to
@@ -117,7 +117,7 @@ $salary = $salary + 1.05;
 ----
 
 What the code does is to increase the value of the variable `$salary` 5%.
-However, why it does so was not documented.
+// However, why it does so was not documented.
 
 Therefore the following code with comment is much clearer.
 
@@ -163,8 +163,8 @@ Perl keywords fall into some categories such as built-in function and control
 keywords.
 
 You should always avoid using keywords to name variables, functions,
-<<doc/21-perl-modules.adoc#_Perl_modules,modules>>, and other objects. Check it
-out the http://learn.perl.org/docs/keywords.html[Perl keywords].
+// <<doc/21-perl-modules.adoc#_Perl_modules,modules>>, and other objects. Check it
+// out the http://learn.perl.org/docs/keywords.html[Perl keywords].
 
 Sometimes, it is fine to use a variable name such as `$print`, which is similar
 to the built-in `print()` function. However, this may lead to confusion. In
