@@ -1,5 +1,4 @@
-= Programming section
+= Tools section
 
-My home directory for programming languages. Here some basic syntax, notes,
-examples and my scripts will live.
+I'll write about some tools that I use everyday --- or so often
 

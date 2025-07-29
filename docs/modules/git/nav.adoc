@@ -1,0 +1,2 @@
+* xref:index.adoc[Git Version Control]
+** xref:bare-repo.adoc[Bare repo and Worktrees]
