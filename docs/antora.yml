@@ -7,13 +7,20 @@ nav:
 - modules/lua/nav.adoc
 # - modules/sript/nav.adoc
 
-# asciidoc:
-#   attributes:
-#     numbered: true
-#     icons: font
-#     icon-set: fi
-#     source-highlighter: "rouge"
-#     rouge-style: "github"
-#     rouge-css: "class"
-#     # url-jsdoc-latest: 'http://asciidoctor.github.io/asciidoctor.js/main'
+asciidoc:
+  attributes:
+    numbered: true
+    icons: font
+    icon-set: fi
+    source-highlighter: highlight.js
+    highlightjs-languages:
+    - ruby
+    - perl
+    - lua
+    - go
+
+    # source-highlighter: "rouge"
+    # rouge-style: "github"
+    # rouge-css: "class"
+    # url-jsdoc-latest: 'http://asciidoctor.github.io/asciidoctor.js/main'
 
